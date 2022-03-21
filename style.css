@@ -1,0 +1,197 @@
+* {
+  font-family: 'Arimo';
+}
+
+main {
+  padding: 0 !important;
+  height: 100vh !important;
+}
+
+.gradient {
+  background: linear-gradient(to right, orange, red, magenta);
+  height: .7rem;
+}
+
+.header-container {
+  width: 80vw !important;
+}
+
+.header-container a{
+  text-decoration: none;
+  font-weight: 400;
+  color:black;
+}
+
+.nav-container a {
+  font-weight: 600;
+}
+
+.line {
+  border-top: 2px solid rgb(204, 202, 202);
+}
+
+.npm i {
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.search-icon {
+  height: fit-content;
+}
+
+.search-container {
+  /* border: 1px solid black; */
+  height: fit-content;
+}
+
+form {
+  height: fit-content;
+  width: inherit;
+}
+
+.search-container i {
+  align-self: center;
+  padding: 1.2rem .5rem 1rem 1rem;
+}
+
+[type=search] {
+  height: fit-content;
+  border: none;
+  width: 90%;
+  outline: none;
+  padding: 1rem 0;
+  background-color: #f2f2f2;
+}
+
+.search {
+  background-color: #f2f2f2;
+}
+
+.search-container button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 0 1.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.log {
+  margin-left: 1rem;
+  justify-self: flex-end;
+}
+
+.log a {
+  text-decoration: none;
+  font-weight: 400;
+  color:black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+div.sign-up ,
+div.sign-in {
+  height: fit-content;
+  width: fit-content;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgb(204, 202, 202);
+}
+
+div.sign-in {
+  border: none;
+}
+
+
+.hero-container {
+  background: url("imgs/img1.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  width: 40% !important;
+  padding-top: 7rem;
+}
+
+.big-h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.small-h1 {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+.hero div {
+  width: 55% !important;
+}
+
+.buttons {
+  padding: 5rem 0;
+}
+
+.buttons button {
+  border:none;
+  font-weight: 600;
+  padding: 1rem 4rem;
+  border-radius: 30px;
+}
+
+.free {
+  box-shadow: 0px 3px 10px black;
+  background-color: yellow;
+}
+
+.pro {
+  background-color: #cb3837;
+  border: 1px solid white !important;
+}
+
+.img-container {
+  width: fit-content;
+}
+
+.open-source {
+  background: url("imgs/img2.png") no-repeat;
+  background-size: cover;
+}
+
+.text p.h1 {
+  font-size: 3rem !important;
+}
+
+.grateful p{
+  font-weight: bold;
+  font-size: 2.3rem;
+  line-height: 2.3rem;
+  padding-bottom: 3rem;
+}
+
+.footer i {
+  font-size: 3.5rem;
+  padding-top: 1rem;
+}
+
+.footer .col-9 li { 
+  padding-bottom: 1rem;
+}
+
+.footer .col-9 a {
+  font-family: 'Poppins';
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-header {
+  letter-spacing: .2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.footer .col-2 a {
+  color: black
+}
